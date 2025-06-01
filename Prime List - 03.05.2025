@@ -1,7 +1,6 @@
 class Solution {
   public:
     Node *primeList(Node *head) {
-      
       Node* root=head;
       while(root){
           int ele=root->val;
