@@ -13,6 +13,7 @@ class Solution {
             ans.push_back(part);
             return;
         }
+
         for(int j = i; j < l; j++) {
             if(checkPalin(s, i, j)) {
                 part.push_back(s.substr(i, j-i+1));
