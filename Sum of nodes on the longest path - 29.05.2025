@@ -12,7 +12,6 @@ void preOrder(Node* curr, int sum, int& ans, int len, int& maxLen){
             
             return;
         }
-        
         preOrder(curr -> left, sum + curr -> data, ans, len+1, maxLen);
         preOrder(curr -> right, sum + curr -> data, ans, len+1, maxLen);
     }
