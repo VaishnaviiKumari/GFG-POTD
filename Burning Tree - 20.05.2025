@@ -1,7 +1,6 @@
 class Solution {
   public:
     int ans{0};
-
     pair<int, bool> go(Node* r, int t)
     {
         // base case
